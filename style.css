@@ -9,6 +9,79 @@
 
 .dark1 {
     color: rgba(19, 19, 19, 1);
-    font-size: 45px;
+}
+
+.title {
+    margin-top: 8px;
+    margin-left: 120px;
+    font-size: 3rem;
     font-weight: bold;
+}
+
+.head {
+    background-color: rgba(255, 144, 14, 0.1);
+}
+
+.dark2 {
+    color: rgba(66, 66, 66, 1);
+}
+
+/* nav style */
+.nab-bar {
+    justify-content: space-between;
+}
+
+.displayS {
+    display: flex;
+}
+
+.nav-link {
+    text-decoration: none;
+}
+
+.nav-items {
+    list-style: none;
+    margin-right: 30px;
+    font-size: 18px;
+    font-weight: 500px;
+}
+
+.nav-bar,
+.banner {
+    max-width: auto;
+    margin: 0, auto;
+}
+
+.banner-info {
+    max-width: 850px;
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.banner-title {
+    font-size: 4rem;
+    font-weight: bold;
+}
+
+.banner-image {
+    width: 100%;
+}
+
+.btn-prime {
+    background-color: rgba(255, 144, 14, 1);
+    font-size: 1.25rem;
+    font-weight: 800px;
+    border-radius: 8px;
+    padding: 20px 25px;
+    border: none;
+    color: rgba(255, 255, 255, 1);
+}
+
+@media screen and (max-width: 576px) {
+
+    .nav-bar,
+    .nav-links {
+        flex-direction: column;
+    }
 }
