@@ -26,6 +26,10 @@
     color: rgba(66, 66, 66, 1);
 }
 
+.dark3 {
+    color: rgba(114, 114, 114, 1);
+}
+
 /* nav style */
 .nab-bar {
     justify-content: space-between;
@@ -84,4 +88,50 @@
     .nav-links {
         flex-direction: column;
     }
+}
+
+/* main part with team */
+
+main {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+.team-section {
+    margin-top: 20px;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.team-image {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 24px;
+}
+
+.features {
+    margin-left: 130px;
+    max-width: 535px;
+    max-height: 300px;
+}
+
+.features-info {
+    padding-bottom: 1.3rem;
+}
+
+.features-tag {
+    font-size: 45px;
+    font-weight: 400px;
+}
+
+.features-tag2 {
+    color: rgba(255, 144, 14, 1);
+    font-size: 45px;
+    font-weight: bold;
+}
+
+.features-tag1 {
+    font-size: 45px;
+    font-weight: bold;
 }
