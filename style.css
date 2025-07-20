@@ -45,6 +45,10 @@
     font-weight: 600px;
 }
 
+.text-description {
+    max-width: 540px;
+}
+
 
 /* nav style */
 .nab-bar {
@@ -177,6 +181,26 @@ main {
     margin-top: 130px;
 }
 
+/* Facts */
+
+.facts-items {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 120px;
+
+}
+
+.facts-item {
+    width: 180px;
+    height: 150px;
+    padding: 46px 60px 36px 37px;
+    border-radius: 8px;
+    border: 2px solid rgba(255, 144, 14, 1);
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
 /* media query */
 @media screen and (max-width: 576px) {
 
@@ -185,12 +209,14 @@ main {
         flex-direction: column;
     }
 
+    /* team */
     .team-section,
     .team-image {
         display: grid;
         grid-template-columns: repeat(1, 1fr);
     }
 
+    /* features  */
     .about {
         display: grid;
 
@@ -208,5 +234,12 @@ main {
     .about-year {
         font-size: 4rem;
         font-weight: 700px;
+    }
+
+    /* facets */
+
+    .facts-items {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
     }
 }
