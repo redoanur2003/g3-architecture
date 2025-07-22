@@ -290,3 +290,53 @@ footer {
         column-gap: 20px;
     }
 }
+
+/* Adding media query for medium device*/
+
+@media screen and (min-width: 576px) and (max-width: 976px) {
+
+    .nav-bar,
+    .nav-links {
+        flex-direction: column;
+    }
+
+    /* team */
+    .team-section,
+    .team-image {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 10px;
+    }
+
+    /* features  */
+    .about {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 10px;
+
+    }
+
+    .about-btn {
+        font-size: 1.5rem;
+        font-weight: 500px;
+        font-weight: bold;
+        padding: 45px 42px;
+        margin-left: 25%;
+        margin-top: 0px;
+    }
+
+    .about-year {
+        font-size: 4rem;
+        font-weight: 700px;
+    }
+
+    /* facets */
+
+    .facts-items,
+    .sponsor-items {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        row-gap: 20px;
+        column-gap: 20px;
+    }
+}
